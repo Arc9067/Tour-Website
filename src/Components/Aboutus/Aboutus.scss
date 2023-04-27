@@ -1,0 +1,73 @@
+.Aboutus {
+  width: 100%;
+  //   background-color: red;
+  padding-block: 50px;
+
+  h2.head {
+    color: var(--second-color);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    @media (max-width: 700px) {
+      text-align: center;
+    }
+  }
+  h1.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    @media (max-width: 700px) {
+      text-align: center;
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+  p {
+    max-width: 500px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    @media (max-width: 700px) {
+      text-align: center;
+    }
+  }
+  .number {
+    @media (max-width: 700px) {
+      justify-content: center !important;
+      text-align: center;
+    }
+
+    h1,
+    .count {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+      color: #52cf3d;
+
+      @media (max-width: 700px) {
+        font-size: 24px;
+        line-height: 32px;
+      }
+
+      span {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+
+        @media (max-width: 700px) {
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}

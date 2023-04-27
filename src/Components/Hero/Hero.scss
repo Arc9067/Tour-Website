@@ -1,0 +1,104 @@
+.hero {
+  width: 100%;
+  padding-block: 80px 0px;
+
+  .container {
+    .text-div {
+      position: relative;
+
+      .plane {
+        position: absolute;
+        width: 15rem;
+        right: 60px;
+        top: 0;
+        z-index: -1;
+
+        @media (max-width: 800px) {
+          width: 5rem;
+        }
+      }
+    }
+    h1.title {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 64px;
+      line-height: 72px;
+      color: #000000;
+
+      span {
+        color: var(--first-color);
+
+        border: 2px solid #db021c;
+        padding: 3px;
+        border-radius: 1000px;
+        background-color: var(--body-bg);
+      }
+
+      @media (max-width: 800px) {
+        font-size: 32px;
+        line-height: 44px;
+        text-align: center;
+
+        img {
+          width: 1.8rem !important;
+        }
+      }
+
+      img {
+        display: inline !important;
+        width: 2.5rem;
+        margin-inline-start: 1rem;
+        text-align: center;
+      }
+    }
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000000;
+      max-width: 600px;
+
+      @media (max-width: 800px) {
+        text-align: center;
+      }
+    }
+    .inner {
+      width: 100%;
+      padding: 12px 24px;
+      background: #ffffff;
+      box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+      border-radius: 4px;
+
+      div {
+        margin-inline: auto;
+        h2.head {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 20px;
+          letter-spacing: 0.03em;
+          color: #000000;
+          text-transform: capitalize;
+        }
+        span {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18px;
+          color: #000000;
+        }
+      }
+
+      button.button {
+        padding: 16px 32px;
+        background: #52cf3d;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+        margin-inline: auto;
+      }
+    }
+  }
+}
